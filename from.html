@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 1px;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            position: absolute;
+        }
+        h1{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Sokina Hotel</h1>
+    <form >
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+         </label>
+         <br>
+     <label for="email">Email
+        <input id="email" type="email" placeholder="Your Email">
+     </label>
+     <br>
+     <label for="password">Password
+        <input id="password" type="password" placeholder="Enter password">
+     </label>
+     <fieldset>
+        <legend>Type of Rice</legend>
+        <label for="Rice">
+            <input type="radio" name="Rice" id="Polao">Polao
+        </label>
+        <label for="Bashmoti">
+            <input type="radio" name="Rice" id="BashMoti">BashMoti
+        </label>
+        <label for="Fried rice">
+            <input type="radio" name="Rice" id="Fried rice">Fried Rice
+        </label>
+        <label for="Shada Vhat">
+            <input type="radio" name="Rice" id="Shada Vhat">Shada Vhat
+        </label>
+     </fieldset>
+     <fieldset>
+        <legend>
+            Type Of torkari
+        </legend>
+        <label for="">
+            <input type="checkbox" name="torkari" id="mula torkari">Mula torkari 50/-
+        </label>
+        <label for="">
+            <input type="checkbox" name="torkari id="Begun vhaja">Begun vhaja 40/-
+        </label>
+        <label for="">
+            <input type="checkbox" name="torkari" id="murgi">Murgi 80/-
+        </label>
+        <label for="">
+            <input type="checkbox" name="torkari" id="goru">Goru 150/-
+        </label>
+     </fieldset>
+        <legend>Review</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
